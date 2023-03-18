@@ -1,6 +1,7 @@
 name: eda
-conda_env: conda.yml
+# No new environment because of conflicts with local jupyterlab
+#conda_env: conda.yml
 
 entry_points:
   main:
-    command: jupyter notebook
+    command: /media/johannes/Daten/conda/env/nyc_airbnb_dev/bin/jupyter-notebook
